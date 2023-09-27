@@ -17,7 +17,7 @@ const Step1 = () => {
   };
 
   return (
-    <div className="w-72 mx-auto bg-white p-4 rounded">
+    <div className="w-full mx-auto bg-white p-4 rounded">
       <h1 className="text-indigo-600 font-bold">Personal info</h1>
       <p className="text-gray-500">
         Please provide your name, email address, and phone number.

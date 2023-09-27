@@ -7,12 +7,12 @@ const Form = () => {
   const [formInput, setFormInput] = useState({
     name: '',
     emailAdress: '',
-    phoneNumber: 0,
+    phoneNumber: '',
   });
   return (
     <div className="bg-blue-100 h-screen flex flex-col p-4">
       <Step1 />
-      <button className="bg-blue-700 text-white p-2 ml-auto">
+      <button className="bg-blue-700 text-white p-2 ml-auto mt-2 rounded cursor-pointer">
         Next Step
       </button>
     </div>
